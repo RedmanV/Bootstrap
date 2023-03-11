@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-image: url(./Bootstrap_Cancat/fondo1.jpg);
+    background-size: 85% 200%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+@font-face {
+    font-family: Holyfat;
+    src: url(./Bootstrap_Cancat/Holyfat.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Holyfat;
+    font-size: 30pt;
+}
+
+.logo img{
+    height: 180px;  
+    margin: 3rem;
+}
+
+nav{
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+nav a{
+    padding-right: 30px; 
+    margin-right: 10px;  
+}
+
+nav a:hover{
+    color: white;  
+    background-color: #57E600;
+}
+
+a{
+    text-decoration: none;
+    color: #57E600;
+}
+
+.c2{
+    width: 35%;
+}
+
+.title-1{
+    color: #57E600;
+}
+
+.sub-title-1{
+    color: #57E600;
+}
+
+.parrafo-1{
+    color: rgb(27, 182, 182);
+    margin: 2rem;
+}
+
+.btn-1{
+    background-color: #57E600;
+    border-radius: 100%;
+    padding: 25px;
+    margin: 20%;
+}
+
+.img-btn{
+    width: 35%;
+}
+
+.c3{
+    margin: 2rem;
+}
+
+.title-2{
+    font-family: Holyfat;
+    font-size: 30pt;
+    color: #57E600;
+    background-color: rgba(255, 255, 255, 0.392);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.parrafo-2{
+    color: white;
+    padding: 20px;
+    background-color: #58e600cc;
+}
+
+.c4{
+    margin-top: 20px;
+}
+
+.c5{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.c6{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.title-3{
+    font-family: Holyfat;
+    font-size: 30pt;
+    color: #57E600;
+    background-color: rgba(221, 221, 221, 0.697);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.parrafo-3{
+    color: white;
+    padding: 5px;
+    background-color: #58e600cc;
+    border-radius: 5px;
+}
+
+.title-4{
+    font-family: Holyfat;
+    font-size: 30pt;
+    color: #57E600;
+    text-align: center;
+}
+
+.btns{
+    margin: 1rem;
+}
+
+.foot{
+    background-color: rgba(127, 255, 212, 0.544);
+    padding: 10px;
+}
+
+.f-img{
+    width: 70px;
+}
+
+.fb{
+    width: 30px;
+}
+
+.ig{
+    width: 50px;    
+}
